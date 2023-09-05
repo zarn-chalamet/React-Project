@@ -22,10 +22,12 @@
     <!--Need to choose type if you want to compile with babel-->
     <script type="text/babel">
         const Main = () => {
-            return <div>This is the main section of the page that I created.</div>
+            //this is the comment for XML language
+            //In XML, if you wanna write class name, use className
+            return <div className="main-section">This is the main section of the page that I created.</div>
         }
 
-        let rootContainer = document.getElementById("main");
+        let rootContainer = document.getElementById('main');
 
         //create react element
         let e = React.createElement;
